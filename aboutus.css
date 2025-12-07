@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+  
+  font-weight: weight;
+  font-style: normal;
+   background-color: #090A26;
+ 
+}
+.body{
+      display: flex;
+   flex-direction: column;
+   gap: 120px;
+}
+.header{
+  background-image:url(contact&aboutus/cyberpunk-neon-girl_1565054393\ 4.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1034px;
+}
+
+header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    padding: 20px;
+}
+.signnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+nav{
+    display: flex;
+    gap: 60px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  font-weight:bold;
+
+    
+}
+button{
+    width: 150px;
+    height: 52px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+   border: none;
+  
+}
+footer{
+     background-color: #090A26;
+    display: flex;
+flex-direction: column;
+
+
+
+}
+
+.footer{
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 240px;
+  padding: 120px;
+  border-top: 1px solid #502356;
+}
+.nav{
+    display: flex;
+    gap: 170px;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.socialtext{
+    width: 380px;
+    
+    color: white;
+    font-size: 12px;
+
+}
+.foota{
+    font-size: 14px;
+    font-weight:lighter;
+}
+h3{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.footlogo{
+    width: 178px;
+    height: 48px;
+    position: relative;
+    right: 30px;
+    top: -17px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 27px;
+}
+.socialapps{
+    display: flex;
+    gap: 50px;
+}
+
+.bolo{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+ gap: 200px;
+ 
+ padding: 30px;
+ border-top: 1px solid #502356;
+
+ flex-wrap: wrap;
+
+   
+}
+.bolop{
+    color: white;
+    
+}
+.chemi{
+    background-color:white !important;
+    width: 80px !important;
+  
+    padding: 0 !important;
+    margin: 0 !important;
+  
+    
+}
+.ghilaki{
+    position: absolute !important;
+    background-color: white;
+    right: 0px ;
+    z-index: 10;
+    width: 80px;
+   display: flex !important;
+   gap: 20px;
+   align-items: center ;
+
+}
+
+.headmain{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    padding: 130px;
+
+}
+.h1{
+    color: white;
+    padding-left: 120px;
+    padding-bottom: 90px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.main{
+    background-image: url(contact&aboutus/96398-neon-cyberpunk-artist-artwork-digital-art-hd-4k-artstation\ 1.png);
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 10px;
+  
+    padding: 130px;
+
+}
+.learnmore{
+    width: 194px;
+    height: 48px;
+    background-color: #5604AD;
+    color: white;
+    font-size: 18px;
+}
+.headtext{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.p1{
+    width: 465px;
+    color: white;
+    font-size: 18px;
+    line-height: 38.9px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .chemi{
+        display: none !important;
+    }
+  
+   
+}
+
+@media screen and (max-width: 800px) {
+    .headnav{
+        display: none;
+    }
+    .home{
+        color: black;
+    }
+    header{
+        gap: 0px;
+        justify-content: center;
+    }
+     .home{
+    color: white;
+   }
+   .signnav{
+    gap: 10px;
+   }
+  
+
+    .footer{
+    gap: 100px;
+    
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+   }
+   footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   }
+   .bolo{
+    gap: 0px;
+    justify-content: center;
+   }
+  
+   .social{
+   align-items: center;
+    justify-content: center;
+    
+   }
+   .h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+   }
+   .p1,.p2, .h3{
+    width: 100%;
+    text-align: center;
+   }
+   .ghilaki{
+    background-color: #5604AD;
+
+   }
+   .home{
+    color: white;
+   }
+
+ .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+ }
+
+.bolonav{
+    gap: 0px;
+    margin: 0px;
+}
+.headmain{
+    justify-content: center;
+}
+}
+@media screen and (max-width:350px) {
+    .signin{
+     display: none;
+    }
+    .socialtext{
+    width: 100%;
+   }
+   
+}

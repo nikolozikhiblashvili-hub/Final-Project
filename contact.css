@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+  
+  font-weight: weight;
+  font-style: normal;
+   background-color: #090A26;
+}
+.header{
+  background-image:url(contact&aboutus/conactimg.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1024px;
+}
+
+header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    padding: 20px;
+}
+.signnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+nav{
+    display: flex;
+    gap: 60px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  font-weight:bold;
+
+    
+}
+button{
+    width: 150px;
+    height: 52px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+   border: none;
+  
+}
+footer{
+     background-color: #090A26;
+    display: flex;
+flex-direction: column;
+gap: 80px;
+position: relative;
+top: 130px;
+}
+.footer{
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 240px;
+  padding: 120px;
+  border-top: 1px solid #502356;
+}
+.nav{
+    display: flex;
+    gap: 170px;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.socialtext{
+    width: 380px;
+    
+    color: white;
+    font-size: 12px;
+
+}
+.foota{
+    font-size: 14px;
+    font-weight:lighter;
+}
+h3{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.footlogo{
+    width: 178px;
+    height: 48px;
+    position: relative;
+    right: 30px;
+    top: -17px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 27px;
+}
+.socialapps{
+    display: flex;
+    gap: 50px;
+}
+
+.bolo{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+ gap: 200px;
+ 
+ padding: 30px;
+ border-top: 1px solid #502356;
+ position: relative;
+ flex-wrap: wrap;
+
+   
+}
+.bolop{
+    color: white;
+    
+}
+.chemi{
+    background-color:white !important;
+    width: 80px !important;
+  
+    padding: 0 !important;
+    margin: 0 !important;
+  
+    
+}
+.ghilaki{
+    position: absolute !important;
+    background-color: white;
+    right: 0px ;
+    z-index: 10;
+    width: 80px;
+   display: flex !important;
+   gap: 20px;
+   align-items: center ;
+
+}
+
+.contact{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 230px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.h1{
+    color: white;
+    font-size: 36px;
+}
+.p1{
+    color: white;
+    font-size: 16px;
+}
+.input{
+     display: flex;
+    gap: 20px;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+::placeholder{
+    color: black;
+    padding: 20px;
+    font-weight: 500;
+}
+.button{
+    background-color: #5604AD;
+    width: 119px;
+    height: 48px;
+    color: white;
+}
+input{
+    width: 507px;
+    height: 50px;
+
+}
+textarea{
+    width: 507px;
+     overflow-x: hidden;
+     height: 180px !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .chemi{
+        display: none !important;
+    }
+  
+   
+}
+
+@media screen and (max-width: 800px) {
+    .headnav{
+        display: none;
+    }
+    .home{
+        color: black;
+    }
+    header{
+        gap: 0px;
+        justify-content: center;
+    }
+     .home{
+    color: white;
+   }
+   .signnav{
+    gap: 10px;
+   }
+  
+
+    .footer{
+    gap: 100px;
+    
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+   }
+   footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   }
+   .bolo{
+    gap: 0px;
+    justify-content: center;
+   }
+  
+   .social{
+   align-items: center;
+    justify-content: center;
+    
+   }
+   .h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+   }
+   .p1,.p2, .h3{
+    width: 100%;
+    text-align: center;
+   }
+   .ghilaki{
+    background-color: #5604AD;
+
+   }
+   .home{
+    color: white;
+   }
+   .whoweare{
+     justify-content: center;
+     align-items: center;
+
+   }
+ .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+ }
+ .teqsti{
+    gap: 0px;
+ }
+ .button{
+    margin: 0px;
+ }
+ input{
+    width: 100%;
+ }
+ 
+  textarea{
+    width: 100%;
+  }
+.bolonav{
+    gap: 0px;
+    margin: 0px;
+}
+}
+@media screen and (max-width:350px) {
+    .signin{
+     display: none;
+    }
+    .socialtext{
+    width: 100%;
+   }
+   
+}
