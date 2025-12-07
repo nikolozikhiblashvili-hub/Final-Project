@@ -23,7 +23,12 @@ body{
     background-repeat: no-repeat;
     height: 1034px;
 }
-
+.home1{
+    border-bottom: 2px solid white;
+}
+.home1:active{
+    border-bottom: 2px solid #E15CF2;
+}
 header{
     
     display: flex;
@@ -50,6 +55,22 @@ a{
   font-weight:bold;
 
     
+}
+.signin:hover{
+    background-color: #D8CCE0;
+}
+.signin:active{
+    background:transparent;
+    border: 1px solid white;
+    color: white;
+}
+.learnmore:hover{
+    background-color: #883DF2 ;
+}
+.learnmore:active{
+    background:transparent;
+    border: 1px solid white;
+    color: white;
 }
 button{
     width: 150px;
@@ -182,7 +203,7 @@ h3{
 .main{
     background-image: url(contact&aboutus/96398-neon-cyberpunk-artist-artwork-digital-art-hd-4k-artstation\ 1.png);
     display: flex;
-    
+    height: 955px;
     justify-content: flex-start;
     align-items: center;
     position: relative;
@@ -191,6 +212,7 @@ h3{
     padding: 130px;
 
 }
+
 .learnmore{
     width: 194px;
     height: 48px;
@@ -233,6 +255,7 @@ h3{
     header{
         gap: 0px;
         justify-content: center;
+        align-items: center;
     }
      .home{
     color: white;
@@ -257,7 +280,7 @@ h3{
     
    }
    .bolo{
-    gap: 0px;
+    gap: 20px;
     justify-content: center;
    }
   
@@ -274,6 +297,13 @@ h3{
    .p1,.p2, .h3{
     width: 100%;
     text-align: center;
+   }
+   .p1{
+    line-height: 30px;
+   }
+   .h1{
+    padding: 10px;
+    font-size: 24px;
    }
    .ghilaki{
     background-color: #5604AD;
@@ -297,11 +327,25 @@ h3{
 }
 .headmain{
     justify-content: center;
+    
+    padding: 30px;
+}
+.headtext{
+    align-items: center;
+    justify-contents: center;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:550px) {
     .signin{
      display: none;
+    }
+    .signicon{
+        display: none;
     }
     .socialtext{
     width: 100%;

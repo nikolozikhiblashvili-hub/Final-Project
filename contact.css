@@ -26,6 +26,12 @@ header{
     gap: 160px;
     padding: 20px;
 }
+.home1{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.home1:active{
+    border-bottom: 2px solid #E15CF2;
+}
 .signnav{
     display: flex;
     justify-content: center;
@@ -44,6 +50,22 @@ a{
   font-weight:bold;
 
     
+}
+.signin:hover{
+    background-color: #D8CCE0;
+}
+.signin:active{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.button:hover{
+    background-color: #883DF2;
+}
+.button:active{
+     background: transparent;
+    border: 1px solid white;
+    color: white;
 }
 button{
     width: 150px;
@@ -251,8 +273,9 @@ textarea{
     
    }
    .bolo{
-    gap: 0px;
+    gap: 20px;
     justify-content: center;
+    
    }
   
    .social{
@@ -305,10 +328,16 @@ textarea{
     gap: 0px;
     margin: 0px;
 }
+.contact{
+    top: 120px;
 }
-@media screen and (max-width:350px) {
+}
+@media screen and (max-width:550px) {
     .signin{
      display: none;
+    }
+    .signicon{
+        display: none;
     }
     .socialtext{
     width: 100%;
