@@ -87,7 +87,7 @@ top: 130px;
 .footer{
   display: flex;
   font-family: "Montserrat", sans-serif;
-
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 240px;
